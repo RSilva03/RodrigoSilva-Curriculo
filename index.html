@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rodrigo Silva - Currículo</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding-left: 20px; 
+        }
+
+        li {
+            position: relative;
+            margin-bottom: 10px; 
+        }
+
+        li::before {
+            content: "•"; 
+            color: #366b2f; 
+            font-size: 1.5em; 
+            position: absolute;
+            left: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="minhafoto.jpg" id="profile-picture">
+    <div>
+        <h1>Rodrigo Silva</h1>
+        <p>Aluno de 3° ano de Engenharia Informática <br>  
+        Universidade Nova de Lisboa - FCT </p>
+    </div>
+    </header>
+
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Durante o meu emocionante percurso académico em Engenharia Informática na renomada 
+            Faculdade de Ciências e Tecnologias da Universidade Nova de Lisboa, mergulhei de cabeça no fascinante mundo da tecnologia.<br>
+            Desde o início, fui desafiado a expandir os limites do meu conhecimento, enfrentado complexos desafios e desenvolvendo as 
+            habilidades necessárias para prosperar no campo da informática.<br>
+            Ao longo dos anos, participei ativamente em projetos inovadores que não apenas consolidaram os conceitos teóricos aprendidos
+            em sala de aula, mas também me proporcionaram uma compreensão prática e profunda das aplicações práticas neste ramo.<br>
+            Estou entusiasmado por aplicar o conhecimento adquirido e as habilidades desenvolvidas ao longo do meu percurso académico 
+            em contextos profissionais, contribuindo para soluções inovadoras e impulsionando o progresso na área da Engenharia Informática.</p>
+    </section>
+
+    <section id="education">
+        <h2>Educação</h2>
+        <ul>
+            <li> <h3>Licenciatura em Engenharia Informatica</h3></li>  
+                Universidade Nova de Lisboa - FCT
+        </ul>
+        
+        
+    </section>
+
+    <section id="experience">
+        <h2>Experiência Académica</h2>
+        <ul>
+            <li> <h3>Upgrade em uma Aplicação Open Source</h3></li>  
+            Durante um semestre, o nosso grupo de 6 pessoas mergulhou em um 
+            desafiador projeto Open Source no âmbito da cadeira de Engenharia 
+            de Software.<br>
+            Semanalmente, nós reuníamos para discutir progressos individuais, 
+            definir tarefas e eleger um Scrum Master para liderar os "sprints".
+            Adicionámos incríveis funcionalidades à aplicação, como recompensas 
+            por missões concluídas, melhorias na carroça para transporte e a 
+            capacidade de criar pontos de interesse. Neste projeto foram utilizadas 
+            tecnologias como, IntelliJ IDEA e o GitHub.<br>
+            Um vídeo explicativo das funcionalidades está disponível em:
+            <a href="https://youtu.be/Th3LknIwn14."target="_blank">Vídeo</a>. <br>
+            Neste projeto foram utilizadas tecnologias como o IntelliJ IDEA (Java e 
+            XML) e o GitHub.
+            <li> <h3>Projeto de Transmissão de Vídeo em Rede Dinâmica</h3> </li>
+            <p>Em um projeto colaborativo envolvendo duas pessoas no âmbito da 
+            cadeira de Redes de Computadores, enfrentámos o desafio complexo 
+            da transmissão de vídeo em um ambiente de rede dinâmica, onde a 
+            largura de banda e os tempos de ida e volta são variáveis. <br>Inspirados 
+            na abordagem DASH, desenvolvemos uma aplicação composta por 
+            três elementos distintos: o Content Server, repleto de filmes em várias 
+            versões, o Player, responsável por exibir os filmes e o Proxy, uma peça-chave com threads produtoras e consumidoras, otimizando a entrega 
+            fluida dos segmentos de vídeo. <br>
+            Neste projeto a tecnologia utilizada foi o Spyder(Python).
+            </p>
+            <li> <h3>Implementação do modelo de iluminação de Phong</h3> </li>
+            Este projeto, no âmbito da cadeira de Computação Gráfica e Interfaces, 
+            tinha como objetivo a implementação do modelo de iluminação de 
+            Phong com avaliação por fragmento (Phong shading) e utilização da 
+            biblioteca dat.gui para a interface gráfica.<br> Desenvolvemos uma cena 
+            composta por 4 objetos, permitindo seleção e modificação individual 
+            (transformações geométricas e material), incluindo a substituição da 
+            geometria. A interface para o utilizador, estava localizada no canto 
+            superior esquerdo, facilitando assim a manipulação do objeto 
+            selecionado.<br>
+            Existia também uma configuração de opções de visualização tais como, 
+            back face culling, z-buffer, e controlo da animação das luzes. 
+            Adicionalmente, a aplicação possibilitava ajustes nos parâmetros da 
+            projeção perspectiva (fovy, near e far), bem como no posicionamento e 
+            orientação da câmera. Tinha suporte para três luzes, com opções de 
+            configuração como luz pontual ou direcional, permitindo ao utilizador 
+            manipular as suas características (intensidades). A posição e 
+            orientação das fontes de luz eram coreografadas pela aplicação. A 
+            interface de controlo para câmera, luzes e opções de visualização 
+            estava localizada no canto superior direito. <br>
+            Neste projeto a tecnologia utilizada foi o VS Code(Javascript e HTML).
+        </ul>
+    </section>
+
+    <section id="interest">
+        <h2>Interesses</h2>
+        <ul class="interests-list">
+            <li><h4>Web Development</h4></li>
+            <li><h4>Backend Development</h4></li>
+            <li><h4>Cyber Security</h4></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>
+            <div style="display: flex; align-items: center;">
+            <img src="email.png" width="30"> <a href="mailto:digosilva2003@gmail.com" target="_blank"><h5>digosilva2003@gmail.com</h5></a>
+            </div>
+        </p>
+        
+        <p>
+            <div style="display: flex; align-items: center;">
+            <img src="linkedin.jpg" width="30"> <a href="https://www.linkedin.com/in/rodrigo-silva-150b01191/" target="_blank"><h5>Linkedin</h5></a>
+            </div>
+        </p>
+
+        <p>
+            <div style="display: flex; align-items: center;">
+            <img src="telemovel.png" width="30"> <a href="tel:+351964286547"><h5>+351964286547</h5></a>
+            </div>
+        </p>
+    </section>
+
+   
+
+</body>
+</html>
